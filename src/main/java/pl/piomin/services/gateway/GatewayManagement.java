@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import pl.piomin.services.department.DepartmentDTO;
 import pl.piomin.services.department.DepartmentExternalAPI;
 import pl.piomin.services.employee.EmployeeDTO;
-import pl.piomin.services.employee.EmployeeExternalAPI;
+import pl.piomin.services.employee.spi.EmployeeExternalAPI;
 import pl.piomin.services.organization.OrganizationDTO;
 import pl.piomin.services.organization.OrganizationExternalAPI;
 

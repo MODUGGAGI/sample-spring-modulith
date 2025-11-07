@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pl.piomin.services.OrganizationRemoveEvent;
 import pl.piomin.services.employee.EmployeeDTO;
-import pl.piomin.services.employee.EmployeeExternalAPI;
+import pl.piomin.services.employee.spi.EmployeeExternalAPI;
 import pl.piomin.services.employee.EmployeeInternalAPI;
 import pl.piomin.services.employee.mapper.EmployeeMapper;
 import pl.piomin.services.employee.model.Employee;
