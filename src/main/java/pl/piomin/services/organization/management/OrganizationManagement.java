@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 import pl.piomin.services.OrganizationAddEvent;
 import pl.piomin.services.OrganizationRemoveEvent;
 import pl.piomin.services.department.DepartmentDTO;
-import pl.piomin.services.department.DepartmentInternalAPI;
+import pl.piomin.services.department.spi.DepartmentInternalAPI;
 import pl.piomin.services.employee.EmployeeDTO;
 import pl.piomin.services.employee.EmployeeInternalAPI;
 import pl.piomin.services.organization.OrganizationDTO;
